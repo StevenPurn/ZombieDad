@@ -232,7 +232,7 @@ namespace AnimFollow
 			// inhibit movements in PlayerMovement script, falling, orientate master. ease ragdoll to master pose, play getup animation, go to full strength and anable movements again. 
 
 			// Fall if: we hit with high enough speed or if the distortion of the character to large
-			if (shotByBullet || numberOfCollisions > 0 && (collisionSpeed > graceSpeed || (!(gettingUp || falling) && limbErrorMagnitude > noGhostLimit)) || (limbErrorMagnitude > noGhostLimit2 && orientated))
+			/*if (shotByBullet || numberOfCollisions > 0 && (collisionSpeed > graceSpeed || (!(gettingUp || falling) && limbErrorMagnitude > noGhostLimit)) || (limbErrorMagnitude > noGhostLimit2 && orientated))
 			{
 				if (!falling)
 				{
@@ -271,8 +271,8 @@ namespace AnimFollow
 				animator.speed = animatorSpeed;
 				delayedGetupDone = false;
 				fellOnSpeed = numberOfCollisions > 0 && collisionSpeed > graceSpeed; // For tuning. If you want to know if the fall was triggered by the speed of the collision
-			}
-			else if (falling || gettingUp) // Code do not run in normal operation
+			}*/
+			if (falling || gettingUp) // Code do not run in normal operation
 			{	
 				if (gettingUp)
 				{

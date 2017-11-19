@@ -4472,18 +4472,10 @@ Prefab:
       propertyPath: m_ConnectedAnchor.z
       value: 0.000000096058514
       objectReference: {fileID: 0}
-    - target: {fileID: 11440072, guid: b4186c087b4ad314dba08237622dfa62, type: 2}
-      propertyPath: ragdollRootBone
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 11437010, guid: b4186c087b4ad314dba08237622dfa62, type: 2}
       propertyPath: master
       value: 
       objectReference: {fileID: 1940038728}
-    - target: {fileID: 11440072, guid: b4186c087b4ad314dba08237622dfa62, type: 2}
-      propertyPath: falling
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4186c087b4ad314dba08237622dfa62, type: 2}
   m_IsPrefabParent: 0
